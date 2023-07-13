@@ -19,7 +19,7 @@ func main(){
 }
 
 func getSession() *mgo.Session{
-	s,err := mgo.Dial("mongodb://localhost:27107")
+	s,err := mgo.Dial("YOURMONGOURL")
 	if err != nil{
 		panic(err)
 	}
