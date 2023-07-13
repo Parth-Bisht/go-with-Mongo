@@ -5,6 +5,8 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
+
+	"github.com/parth/mongo-golang/controllers"
 )
 
 func main(){
